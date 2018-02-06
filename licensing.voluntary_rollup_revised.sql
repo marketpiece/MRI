@@ -1,7 +1,12 @@
 ﻿-- Function: licensing.voluntary_rollup_revised(BIGINT, CHARACTER VARYING, BIGINT, CHARACTER VARYING, BOOLEAN)
  
 -- DROP FUNCTION licensing.voluntary_rollup_revised(BIGINT, CHARACTER VARYING, BIGINT, CHARACTER VARYING, BOOLEAN);
- 
+
+/* Author: Ilia Kamov
+   Date: 12/20/2017
+   Reason: Revised legacy code
+*/
+
 CREATE OR REPLACE FUNCTION licensing.voluntary_rollup_revised(
    arg_client_id            BIGINT,
    arg_royalty_statement_id CHARACTER VARYING,
