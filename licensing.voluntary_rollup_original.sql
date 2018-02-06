@@ -2,6 +2,9 @@
 
 -- DROP FUNCTION licensing.voluntary_rollup(bigint, character varying, bigint, character varying, boolean);
 
+/* Redundant legacy code built by my colleague, which late I inheritted and revised
+   Off me such redundancy
+*/
 CREATE OR REPLACE FUNCTION licensing.voluntary_rollup(
     bigint,
     character varying,
